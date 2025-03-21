@@ -383,22 +383,28 @@ div.step3 {
 	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/fortnite13500.webp");
 }
 .checkmarkPack.card3 {
-	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/Roocket-Leaguee-1.webp");
+  background-image: url("https://imgur.com/3O7FEiJ.png") !important;
+  background-size: contain; /* or cover, if you prefer */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .checkmarkPack.card4 {
 	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/Brawl-Stars-Giftcard.webp");
 }
 .checkmarkPack.card5 {
-	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/blox-fruit-gift-card-100.webp");
+	background-image: url("https://i.imgur.com/jB8xn5A.png");
 }
 .checkmarkPack.card6 {
-	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/100googlepaly.webp");
+  background-image: url("https://i.imgur.com/OWYeNWQ.png") !important;
+  background-size: contain; /* or cover, if you prefer */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .checkmarkPack.card7 {
-	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/cash-app-gift-card-750.webp");
+	background-image: url("https://imgur.com/1NfpRVX.png");
 }
 .checkmarkPack.card8 {
-	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/valorant100.webp");
+	background-image: url("https://imgur.com/Mqs5QAw.png");
 }
 .checkmarkPack.card9 {
 	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/xbox_card.webp");
@@ -448,6 +454,18 @@ div.step3 {
 	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/Gift-card-Slime.webp");
 }
 
+.checkmarkPack.card21 {
+	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/blox-fruit-gift-card-100.webp");
+}
+.checkmarkPack.card22 {
+	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/Roocket-Leaguee-1.webp");
+}
+.checkmarkPack.card23 {
+	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/cash-app-gift-card-750.webp");
+}
+.checkmarkPack.card24 {
+	background-image: url("https://cakehub.net/wp-content/uploads/2025/01/100googlepaly.webp");
+}
 .percent {
 	color: #fafafc;
 	left: 40px;
@@ -606,7 +624,24 @@ div.step3 {
 <label class="containerPack" onclick="functionPack1(20)">
     <input type="radio">
     <span class="checkmarkPack card20"></span>
-  </label>      
+  </label> 
+<label class="containerPack" onclick="functionPack1(21)">
+    <input type="radio">
+    <span class="checkmarkPack card21"></span>
+  </label>
+<label class="containerPack" onclick="functionPack1(22)">
+    <input type="radio">
+    <span class="checkmarkPack card22"></span>
+  </label>
+<label class="containerPack" onclick="functionPack1(23)">
+    <input type="radio">
+    <span class="checkmarkPack card23"></span>
+  </label>  
+<label class="containerPack" onclick="functionPack1(24)">
+    <input type="radio">
+    <span class="checkmarkPack card24"></span>
+  </label>  
+
 </div>
 </div>  
   <div class="Main1 hideform" id="Mainstep3">
@@ -719,17 +754,17 @@ function functionPack1(cardvalue) {
 		}else if (cardvalue==2){
 			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/fortnite13500.webp";
 		}else if (cardvalue==3){
-			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/Roocket-Leaguee-1.webp";         
+			document.getElementById("selectedimage").src = "https://imgur.com/3O7FEiJ.png";         
 		}else if (cardvalue==4){
 			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/Brawl-Stars-Giftcard.webp";
 		}else if (cardvalue==5){
-			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/blox-fruit-gift-card-100.webp";
+			document.getElementById("selectedimage").src = "https://i.imgur.com/jB8xn5A.png";
 		}else if (cardvalue==6){
-			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/100googlepaly.webp";			
+			document.getElementById("selectedimage").src = "https://i.imgur.com/OWYeNWQ.png";			
 		}else if (cardvalue==7){
-			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/cash-app-gift-card-750.webp";			
+			document.getElementById("selectedimage").src = "https://imgur.com/1NfpRVX.png";			
 		}else if (cardvalue==8){
-			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/valorant100.webp";        
+			document.getElementById("selectedimage").src = "https://imgur.com/Mqs5QAw.png";        
 		}else if (cardvalue==9){
 			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/xbox_card.webp";			
 		}else if (cardvalue==10){
@@ -754,7 +789,15 @@ function functionPack1(cardvalue) {
 			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/nintendo_eshop.webp";	
         }else if (cardvalue==20){
 			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/Gift-card-Slime.webp";				
-		}        
+		}else if (cardvalue==21){
+			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/Gift-card-Slime.webp";				
+		}else if (cardvalue==22){
+			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/cash-app-gift-card-750.webp";				
+		}else if (cardvalue==23){
+			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/Gift-card-Slime.webp";				
+		}else if (cardvalue==24){
+			document.getElementById("selectedimage").src = "https://cakehub.net/wp-content/uploads/2025/01/Gift-card-Slime.webp";				
+		}                                        
 			document.getElementById("Mainstep3").style.display = "none";
 			document.getElementById("Mainstep4").style.display = "block";
 	  }
